@@ -7,18 +7,30 @@ body {
 
 h1 {
     font-size: 50px;
+    font-weight: normal;
     }
 
-h1 {
-    display: block;
-    font-size: 2em;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-   }
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 21px;
+  color: gray;
+}
 
 video {
        object-fit: contain;
       }
+
+.download{
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.footer{
+  text-align: right;
+  color: gray;
+}
